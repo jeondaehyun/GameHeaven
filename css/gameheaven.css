@@ -71,6 +71,7 @@
     display: flex;
     margin-left: 371px;
     margin-top: 35px;
+   
 }
 
 .game-flexbox img {
@@ -80,6 +81,16 @@
 
 .fifa {
     margin-right: 20px;
+}
+
+.fifa a {
+    text-decoration: none;
+    color:black;
+}
+
+.fifa:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px gray;
 }
 
 .fifa p {
@@ -95,8 +106,18 @@
     font-weight: 600;
 } 
 
+.lostark a {
+    text-decoration: none;
+    color:black;
+}
+
 .lostark {
     margin-right: 20px;
+}
+
+.lostark:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px gray;
 }
 
 .lostark p {
@@ -112,6 +133,16 @@
     font-weight: 600;
 }  
 
+.maple:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px gray;
+}
+
+.maple a {
+    text-decoration: none;
+    color:black;
+}
+
 .maple p {
     font: 39px "HY헤드라인M";
     font-weight: 600;
@@ -124,3 +155,30 @@
     font: 16px "HY헤드라인M";
     font-weight: 600;
 }  
+
+/*-----rpg-game-----*/
+.rpg-game p {
+    margin-top: 66px;
+    margin-left: 371px;
+    font: 24px "HY헤드라인M";
+    font-weight: 600;
+}
+
+
+/*--sport-game--*/
+.sport-game p {
+    margin-top: 66px;
+    margin-left: 371px;
+    font: 24px "HY헤드라인M";
+    font-weight: 600;
+}
+
+.sport-game-flexbox {
+    width:1200px;
+    position: relative;
+    display: flex;
+    margin-left: 371px;
+    margin-top: 35px;
+    background-color: blue;
+   
+}
