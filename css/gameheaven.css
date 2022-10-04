@@ -1,0 +1,126 @@
+@charset "utf-8";
+.container {
+    width:1920px;
+}
+
+/*-----header-----*/
+.header {
+    width:100%;
+    height:89px;
+    background-color: black;
+}
+
+.left-menu {
+    position: absolute;
+    left:368px; top:35px;
+    width:30px;
+    height: 32px;
+}
+
+.left-menu span:first-child,
+.left-menu span:nth-child(2),
+.left-menu span:last-child {
+    position :absolute;
+    width:26px;
+    height:2px;
+    background-color: white;
+}
+
+.left-menu span:nth-child(2) {
+    transform: translateY(8px);
+}
+
+.left-menu span:last-child {
+    transform: translateY(16px);
+}
+
+.header .title {
+    position: absolute;
+    left: 416px;
+    color: white;
+    font: 30px "HY헤드라인M";
+    font-weight: bold;
+    margin:23px 0;  
+}
+
+.header .title a {
+    text-decoration: none;
+    color:white;
+}
+
+.header-image > a img {
+    position:absolute;
+    right:369px;
+    width:47px;
+    padding-top:22px;
+}
+/*------Main------*/
+#main-gallery > img{
+    position:relative;
+    width: 100%;
+}
+
+#main-gallery button:last-child {
+    position: absolute;
+    top: 850px; left:980px; 
+}
+/*---game-news---*/
+.game-flexbox {
+    width:1200px;
+    position: relative;
+    display: flex;
+    margin-left: 371px;
+    margin-top: 35px;
+}
+
+.game-flexbox img {
+    width:381px;
+    height: 262px;
+}
+
+.fifa {
+    margin-right: 20px;
+}
+
+.fifa p {
+    font: 39px "HY헤드라인M";
+    font-weight: 600;
+    margin-top: 31px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.fifa .subtitle {
+    font: 16px "HY헤드라인M";
+    font-weight: 600;
+} 
+
+.lostark {
+    margin-right: 20px;
+}
+
+.lostark p {
+    font: 39px "HY헤드라인M";
+    font-weight: 600;
+    margin-top: 31px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.lostark .subtitle {
+    font: 16px "HY헤드라인M";
+    font-weight: 600;
+}  
+
+.maple p {
+    font: 39px "HY헤드라인M";
+    font-weight: 600;
+    margin-top: 31px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.maple .subtitle {
+    font: 16px "HY헤드라인M";
+    font-weight: 600;
+}  

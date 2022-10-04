@@ -5,19 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GameHeaven</title>
-    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/gameheaven.css">
+    <script>
+        let num = 1;
+        function galleryPrev() {
+            num--;
+            if(num < 1) num = 3;
+            document.getElementById("photo").setAttribute("src" , "images/pic_" + num + ".png");
+        }
+        function galleryNext() {
+            num++;
+            if(num > 3) num = 1;
+            document.getElementById("photo").setAttribute("src" , "images/pic_" + num + ".png");
+        }
+    </script>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="left-menu">
-                <span></span>
-                <span></span>
-                <span></span>
+                
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
             </div>
-            <div class="title">Game Heaven</div>
-            <div class="header-image"><img src="./images/user-(1).png" alt="header-img"></div>
+            <div class="title"><a href="gameheaven.html">Game Heaven</a></div>
+            <div class="header-image">
+                <a href="#"><img src="./images/user-(1).png" alt="header-img"></a>
+            </div>
         </div>
+        <div class="main">
+            <div id="main-gallery">
+                <img src="./images/pic_1.png" alt="main-image" id="photo">
+                <button onclick="galleryNext()">Next</button>
+            </div>
+            <div class="game-news">
+                <h1>gameheaven</h1>
+                <h2>게임 최근 소식</h2>
+                <div class="game-flexbox">
+                    <div class="fifa">
+                        <img src="./images/fifa.png" alt="fifa">
+                        <p>피파온라인 4</p>
+                        <p class="subtitle">#스포츠 게임 # 새로운 선수 업데이트</p>
+                    </div>
+                    <div class="lostark">
+                        <img src="./images/lostark.png" alt="lostark">
+                        <p>로스트 아크</p>
+                        <p class="subtitle">#RPG 게임 # 새로운 보스 업데이트</p>
+                    </div>
+                    <div class="maple">
+                        <img src="./images/maple.png" alt="maple">
+                        <p>메이플스토리</p>
+                        <p class="subtitle">#RPG 게임 # 새로운 보스 업데이트</p>
+                    </div>
+                </div><!--game-flexbox-->
+            </div><!--game-news-->
+        </div><!--main-->
     </div>
 </body>
 </html>
