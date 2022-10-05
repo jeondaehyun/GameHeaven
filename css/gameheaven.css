@@ -174,29 +174,143 @@
 .rpg-game-flexbox > .info-lostark {
     border:1px solid black;
     border-radius: 5%;
+    box-shadow: 2px 2px 2px gray;
     width:644px;
     height:510px;
-    background-color: aqua;
+    
 }
+
+.info-lostark img {
+    width:331px;
+    height:445px;
+    padding-top: 34px;
+    padding-left: 19px;
+}
+
+.info-lostark p {
+    position: absolute;
+    top:40px;
+    font-size: 24px;
+}
+
+.info-lostark .date {
+    position: absolute;
+    top:90px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.info-lostark .detail {
+    position: absolute;
+    top:180px;
+    font-size: 18px;
+}
+
+.info-lostark .gamestart img {
+    position: absolute;
+    top:320px;
+    left:355px;
+    width:183px;
+    height:75px;
+}
+
 
 .rpg-game-flexbox > .info-maple {
     position: absolute;
     top:0; left:657px;
     border:1px solid black;
     border-radius: 5%;
+    box-shadow: 2px 2px 2px gray;
     width:524px;
     height:248px;
-    background-color: blueviolet;
 }
 
-.rpg-game-flexbox > .blade {
+.info-maple img {
+    width:282px;
+    height:236px;
+    padding-top: 7px;
+    padding-left: 9px;
+}
+
+.info-maple p {
+    position: absolute;
+    top:-40px;
+    left: -60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info-maple .maple-date {
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    font-size: 14px;
+}
+
+.info-maple .maple-detail {
+    position: absolute;
+    top: 60px;
+    left: -60px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.info-maple .maple-gamestart img {
+    position: absolute;
+    top:170px;
+    left:300px;
+    width:183px;
+    height:48px;
+}
+
+.rpg-game-flexbox > .info-blade {
     position: absolute;
     top:259px; left:657px;
     border:1px solid black;
     border-radius: 5%;
+    box-shadow: 2px 2px 2px gray;
     width:524px;
     height:248px;
-    background-color: #333;
+    
+}
+
+.info-blade img {
+    width:281px;
+    height:234px;
+    padding-top: 9px;
+    padding-left:11px;
+}
+
+.info-blade p {
+    position: absolute;
+    top:-40px;
+    left: -60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info-blade .blade-date {
+    position: absolute;
+    top:10px;
+    left: -60px;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.info-blade .blade-detail {
+    position: absolute;
+    top:60px;
+    left: -60px;
+    font-size: 16px;   
+}
+
+.info-blade .blade-gamestart img {
+    position: absolute;
+    top:170px;
+    left:300px;
+    width:183px;
+    height:50px;
 }
 
 /*--sport-game--*/
@@ -208,11 +322,185 @@
 }
 
 .sport-game-flexbox {
-    width:1200px;
     position: relative;
     display: flex;
+    width:1200px;
+    height: 503px;
     margin-left: 371px;
     margin-top: 35px;
-    background-color: blue;
-   
+}
+
+.info-fifa a {
+    color:black;
+}
+
+.info-fifa p {
+    position: absolute;
+    top:380px;
+    left:-360px;
+    font-size: 24px;
+}    
+
+.info-fifa {
+    margin-right: 20px;
+}
+
+.info-freestyle a {
+    color: black;
+    text-decoration: none;
+}
+
+.info-freestyle p {
+    position: absolute;
+    top:380px;
+    left:235px;
+    font-size: 24px;
+}
+
+/*----youtuber----*/
+.youtuber p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:250px;
+    margin-bottom:52px;
+}
+
+.youtuber img:first-child {
+    margin-bottom: 43px;
+}
+
+.youtuber img:nth-child(2) {
+    margin-bottom: 43px;
+}
+
+/*-----mobile-game-----*/
+.mobile-game p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 140px;
+}
+
+.mobile-game-flexbox {
+    position: relative;
+    display: flex;
+    width:1200px;
+    height: 503px;
+    margin-left: 331px;
+    margin-top: 65px;
+}
+.sevenknights {
+    margin-right: 20px;
+}
+
+.sevenknights a {
+    color:black;
+    text-decoration: none;
+}
+
+.sevenknights p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 22px;
+} 
+
+.sevenknights:hover {
+    transform: scale(1.05);
+}
+
+.island {
+    margin-right: 20px;
+}
+.island a {
+    color:black;
+    text-decoration: none;
+}
+
+.island p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 22px;
+} 
+
+.island:hover {
+    transform: scale(1.05);
+}
+
+.country {
+    margin-right: 20px;
+}
+
+.country a {
+    color:black;
+    text-decoration: none;
+}
+
+.country p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 22px;
+} 
+
+.country:hover {
+    transform: scale(1.05);
+}
+
+.blade-revolution {
+    margin-right: 20px;
+}
+
+.blade-revolution a {
+    color:black;
+    text-decoration: none;
+}
+
+.blade-revolution p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 22px;
+} 
+
+.blade-revolution:hover {
+    transform: scale(1.05);
+}
+
+.lineage2 {
+    margin-right: 20px;
+}
+
+.lineage2  a {
+    color:black;
+    text-decoration: none;
+}
+
+.lineage2  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 22px;
+} 
+
+.lineage2 :hover {
+    transform: scale(1.05);
+}
+
+.A3-stilalive a {
+    color:black;
+    text-decoration: none;
+}
+
+.A3-stilalive  p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 22px;
+} 
+
+.A3-stilalive :hover {
+    transform: scale(1.05);
 }
