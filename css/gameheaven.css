@@ -485,7 +485,7 @@
     margin-top: 22px;
 } 
 
-.lineage2 :hover {
+.lineage2:hover {
     transform: scale(1.05);
 }
 
@@ -501,6 +501,7 @@
     margin-top: 22px;
 } 
 
-.A3-stilalive :hover {
+.A3-stilalive:hover {
     transform: scale(1.05);
 }
+
