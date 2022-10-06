@@ -4,6 +4,13 @@
 }
 
 /*-----header-----*/
+.header-sticky {
+    position: sticky;
+    top:0;
+    z-index: 1;
+    opacity: 0.6;
+}
+
 .header {
     width:100%;
     height:89px;
@@ -13,8 +20,7 @@
 .left-menu {
     position: absolute;
     left:368px; top:35px;
-    width:30px;
-    height: 32px;
+    width:30px; height: 32px;
 }
 
 .left-menu span:first-child,
@@ -60,10 +66,36 @@
     width: 100%;
 }
 
-#main-gallery button:last-child {
+#main-gallery .slide {
     position: absolute;
-    top: 850px; left:980px; 
+    top: 400px; left:50px;   
 }
+
+.slide .prev {
+    width:100px; height:100px;
+    font-size: 100px;
+    background-color: transparent;
+    border: transparent;
+    color:white;
+    margin-right: 1600px;
+}
+
+.slide .prev:hover {
+    transform: scale(1.1);
+}
+
+.slide .next {
+    width:100px; height:100px;
+    font-size: 100px;
+    background-color: transparent;
+    border: transparent;
+    color:white;
+}
+
+.slide .next:hover {
+    transform: scale(1.1);
+}
+
 /*---game-news---*/
 .game-flexbox {
     width:1200px;
@@ -71,7 +103,6 @@
     display: flex;
     margin-left: 371px;
     margin-top: 35px;
-   
 }
 
 .game-flexbox img {
@@ -171,6 +202,7 @@
     margin-top: 35px;
     
 }
+
 .rpg-game-flexbox > .info-lostark {
     border:1px solid black;
     border-radius: 5%;
@@ -189,7 +221,7 @@
 
 .info-lostark p {
     position: absolute;
-    top:40px;
+    top:30px;
     font-size: 24px;
 }
 
@@ -413,6 +445,7 @@
 .island {
     margin-right: 20px;
 }
+
 .island a {
     color:black;
     text-decoration: none;
@@ -505,3 +538,93 @@
     transform: scale(1.05);
 }
 
+/*-----footer-----*/
+
+.footer {
+    width:100%;
+    height:257px;
+    
+}
+
+.menu-sns {
+    border-top: 1px solid #339ff5;
+    border-bottom: 1px solid #339ff5;
+}
+
+/* menu-flex-box */
+.menu-flex-box {
+    display: flex;
+    height: 50px;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left:371px; 
+}
+
+.footer-menu {
+    width: 46.36842105263158%;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.footer-menu a,
+.footer-menu #language {
+    font-size: 14px;
+    text-decoration: none;
+    color:black;
+    font-family: "HY헤드라인M";
+    font-weight: 600;
+}
+
+.footer-menu a:hover {
+    color:#339ff5;
+}
+
+.footer-menu #language {
+    border:transparent
+}
+
+/*--footer-logo-address--*/
+.footer-logo-address-flexbox {
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 30px;
+    margin-left:371px; 
+}
+
+.address p {
+    margin-top:20px;
+    margin-left: 40px;
+    line-height: 30px;
+    color:#339ff5;
+    font-weight: bolder;
+}
+
+.address p .contact {
+    font-size: 30px;
+    color:#1e71c8;
+}
+
+/*fixed-menu*/
+.fixed-menu {
+    position: fixed;
+    bottom:200px; right:180px;
+    width:85px; height:85px;
+    line-height: 85px;
+    text-align: center;
+    color:white;
+    border:1px solid transparent;
+    background-color: #339ff5;
+    border-radius: 50%;
+}
+
+.fixed-menu a {
+    text-decoration: none;
+    color:white;
+}

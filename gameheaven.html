@@ -23,24 +23,28 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="left-menu">
-                
-                <a href="#">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
-            </div>
-            <div class="title"><a href="gameheaven.html">Game Heaven</a></div>
-            <div class="header-image">
-                <a href="#"><img src="./images/user-(1).png" alt="header-img"></a>
-            </div>
-        </div> <!--header-->
+        <div class="header-sticky">
+            <div class="header">
+                    <div class="left-menu">
+                            <a href="#">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </a>
+                    </div>
+                    <div class="title"><a href="gameheaven.html">Game Heaven</a></div>
+                    <div class="header-image">
+                        <a href="#"><img src="./images/user-(1).png" alt="header-img"></a>
+                    </div>        
+            </div> <!--header-->
+        </div> <!--header-sticky-->
         <div class="main">
             <div id="main-gallery">
                 <img src="./images/pic_1.png" alt="main-image" id="photo">
-                <button onclick="galleryNext()">Next</button>
+                <p class="slide">
+                <button onclick="galleryPrev()" class="prev">&lang;</button>
+                <button onclick="galleryNext()" class="next">&rang;</button>
+                </p>
             </div>
             <div class="game-news">
                 <h1>gameheaven</h1>
@@ -162,9 +166,55 @@
                         <p>A3:스틸얼라이브</p>  
                         </a>
                     </div>
-                </div>
-            </div>
+                </div><!--mobile-game-flexbox-->
+            </div><!--mobile-game-->
         </div><!--main-->
-    </div>
+        <div class="footer">
+            <div class="menu-sns">
+                <div class="menu-flex-box">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">청소년 보호정책</a></li>
+                            <li><a href="#">게임IP이용가이드</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">전체서비스</a></li>
+                            <li>
+                                <form action="#" method="post">
+                                    <select name="language" id="language">
+                                        <option value="language">Language</option>
+                                        <option value="Korean">Korean</option>
+                                        <option value="Japanese">Japanese</option>
+                                        <option value="Chinese">Chinese</option>
+                                    </select>
+                                </form>
+                            </li>
+                        </ul>
+                    </div> <!--footer-menu-->
+                </div><!--menu-flex-box-->
+            </div><!--menu-sns-->
+            <div class="footer-logo-address">
+                <div class="footer-logo-address-flexbox">
+                    <div class="footer-logo">
+                        <img src="./images/footer-logo.PNG" alt="footer-logo">
+                    </div>
+                    <div class="address">
+                        <p>[주] 게임헤븐 코리아 대표이사 전대현 
+                            경기도 성남시 분당구 판교로 256번길 7 <br>
+                            전화 : 1588-7701 팩스 : 0502-258-8322 사업자등록번호 : 220-87-17483호 <br>
+                            <span class="contact">Email : contact-us@heaven.co.kr</span><br>
+                            ⓒGame Heaven Korea Corporation All Rights Reserved.
+                        </p>
+                    </div>
+                </div><!--footer-logo-address-flexbox-->
+            </div><!--footer-logo-address-->
+            <div class="fixed-menu">
+                <a href="#">
+                    <p>TOP</p>
+                </a>     
+            </div><!--fixed-menu-->
+        </div> <!--footer-->
+    </div><!--container-->
 </body>
 </html>
