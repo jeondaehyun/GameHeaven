@@ -8,18 +8,18 @@
     position: sticky;
     top:0;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
-.header {
+header {
     width:100%;
-    height:89px;
+    height:80px;
     background-color: black;
 }
 
 .left-menu {
     position: absolute;
-    left:368px; top:35px;
+    left:368px; top:33px;
     width:30px; height: 32px;
 }
 
@@ -40,16 +40,16 @@
     transform: translateY(16px);
 }
 
-.header .title {
+header .title {
     position: absolute;
     left: 416px;
     color: white;
     font: 30px "HY헤드라인M";
     font-weight: bold;
-    margin:23px 0;  
+    margin:20px 0;  
 }
 
-.header .title a {
+header .title a {
     text-decoration: none;
     color:white;
 }
@@ -57,8 +57,8 @@
 .header-image > a img {
     position:absolute;
     right:369px;
-    width:47px;
-    padding-top:22px;
+    width:33px;
+    padding-top:28px;
 }
 /*------Main------*/
 #main-gallery > img{
@@ -112,11 +112,13 @@
 
 .fifa {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .fifa a {
     text-decoration: none;
     color:black;
+
 }
 
 .fifa:hover {
@@ -144,6 +146,7 @@
 
 .lostark {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .lostark:hover {
@@ -164,6 +167,9 @@
     font-weight: 600;
 }  
 
+.maple {
+    transition: ease 1s;
+}
 .maple:hover {
     transform: scale(1.1);
     box-shadow: 3px 3px 3px gray;
@@ -360,6 +366,7 @@
     height: 503px;
     margin-left: 371px;
     margin-top: 35px;
+    overflow:hidden;
 }
 
 .info-fifa a {
@@ -387,6 +394,29 @@
     top:380px;
     left:235px;
     font-size: 24px;
+}
+
+.baseball {
+    position: absolute;
+    top:510px;
+}
+
+.baseball a {
+    color: black;
+    text-decoration: none;
+}
+
+.baseball p {
+    position: absolute;
+    width:600px;
+    top:390px;
+    left:-360px;
+    font-size: 24px;
+}
+
+#more {
+    position: absolute;
+    top:2700px; left:880px;
 }
 
 /*----youtuber----*/
@@ -424,6 +454,7 @@
 }
 .sevenknights {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .sevenknights a {
@@ -439,11 +470,12 @@
 } 
 
 .sevenknights:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .island {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .island a {
@@ -459,11 +491,12 @@
 } 
 
 .island:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .country {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .country a {
@@ -479,11 +512,12 @@
 } 
 
 .country:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .blade-revolution {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .blade-revolution a {
@@ -499,11 +533,12 @@
 } 
 
 .blade-revolution:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .lineage2 {
     margin-right: 20px;
+    transition: ease 1s;
 }
 
 .lineage2  a {
@@ -519,9 +554,12 @@
 } 
 
 .lineage2:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
+.A3-stilalive {
+    transition: ease 1s;
+}
 .A3-stilalive a {
     color:black;
     text-decoration: none;
@@ -535,7 +573,7 @@
 } 
 
 .A3-stilalive:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 /*-----footer-----*/
