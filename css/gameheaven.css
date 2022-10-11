@@ -416,8 +416,21 @@ header .title a {
 
 #more {
     position: absolute;
-    top:2700px; left:880px;
+    left:880px;
+    width: 200px;
+    height:50px;
+    line-height: 50px;
+    font-size: 18px;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 8px;
+    background-color: #339ff5;
+    color: white;
     cursor: pointer;
+}
+
+#more:hover {
+    background-color: #1e71c8;
 }
 
 /*----youtuber----*/
