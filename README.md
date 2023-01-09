@@ -32,6 +32,10 @@ HY헤드라인M
 ##Grid System 
 
 Width 1200px 
+
 12 Columns
+
 Column Gap 20px
+
 Column Width 80px
+
