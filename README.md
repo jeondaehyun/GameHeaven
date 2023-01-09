@@ -22,9 +22,7 @@
 -복잡하지 않고 쉽게 찾을수 있는 높은 접근성
                                                                                                                              
 ### 컬러
-<span style="color:red">                                                                                                                          
-Red
-</span>
+<span style="color:red">붉은 색</span>
 
 ### 폰트
 
