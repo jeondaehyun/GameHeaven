@@ -23,7 +23,8 @@
                                                                                                                              
 ### 컬러
 <span style="color:red">                                                                                                                          
-Red            
+Red
+</span>
 
 ### 폰트
 
